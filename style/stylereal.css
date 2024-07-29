@@ -1,5 +1,9 @@
 /* estilos generales */
 
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 body{  
     background-color: black;
     overscroll-behavior: none;}
