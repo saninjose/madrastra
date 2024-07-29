@@ -1,0 +1,712 @@
+/* estilos generales */
+
+body{  
+    background-color: black;
+    overscroll-behavior: none;}
+
+a{color: whitesmoke;
+text-decoration: none;}
+
+a:hover {color: lightblue;
+text-decoration: underline;}
+
+#logoinstagram{width: 2%;
+margin: auto;}
+
+#logomadrastra:hover{
+  background-color: red;
+  opacity: 0.5;}
+
+.hover-opacity:hover {
+opacity: 0.7;}
+
+#headizq{
+  font-size: 24pt;
+  background-color: transparent;
+  grid-area: headerizq;
+  margin-top: 0px;
+  padding-right: 0%;
+  margin-bottom: 0%;}
+
+  #headercen{
+  font-size: 24pt;
+  background-color: transparent;
+  grid-area: headercen;
+  margin-top: 0px;
+  padding-right: 0%;
+  margin-bottom: 0%;}
+
+#headder{
+  font-size: 24pt;
+  background-color: transparent;
+  text-align: right;
+  grid-area: headder;
+margin-bottom: 0%;}
+
+#footer{
+  background-color: transparent;
+  text-align: left;
+  grid-area: footer;
+  padding-left: 3%;
+}
+
+#textofooter{
+  opacity: 40%;
+  color: whitesmoke;}
+
+  .categoria{display: flex;
+    justify-content: space-between; 
+  position: relative; 
+   text-align: center;
+   width: 50%;
+   top: 0%;
+   color: whitesmoke;
+   justify-content: space-evenly;
+   margin-top: 5%;
+    left: 50%;
+    transform: translate(-50%, 50%); 
+            
+}
+
+.cajacategoria { 
+           max-width: 100%;
+         
+           padding-left: 0%;
+           padding-right: 0%;
+            background-color: transparent; 
+            font-size: 1rem;
+            color: lightcoral; 
+            font-size: 1rem; 
+            text-align: center;
+
+ }
+
+/* fin estilos generales */
+
+/* estilos menú que se depliega */
+
+button {padding: 0;
+border: none;
+background: none;
+text-decoration: underline;
+font-weight: bold;
+z-index: 1;}
+
+
+/* Style del botón que abre y cierra el colapsado*/
+
+/* Style del contenedor del menú*/
+
+#menuvolador{
+visibility: hidden;
+color: black;
+text-align: right;
+float: right;
+max-width: 100%;
+position: fixed;
+z-index: 1;
+}
+
+.collapsible {
+  
+  position: fixed;
+  background-color: transparent;
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 0px;
+  text-align: center;
+  margin: 3%;
+  font-size: 12pt;
+font-weight: bold;}
+
+.active, .collapsible:hover {
+  background-color: transparent;
+opacity: 50%;}
+
+
+/* Style del menú colapsado. Nota: configurado par no estár desplegado siempre */
+/* diferentes configuraciones del colapsado para jugar ocn el color de fondo del background */
+.content0 {
+
+  display: block;
+        width: 70%;
+        height: 50%;
+  font-size: 1.5em;
+  text-align: center;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+   overflow: auto;
+  background-color: whitesmoke;
+  opacity: 90%;
+  color: red;
+  z-index: 2;
+}
+
+  .menu{
+    padding: 30px;
+    line-height: 1.5;
+    text-align: left;
+    position: absolute;
+    overflow: auto;
+    text-align: center;
+    color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+
+    #titulosmenu{color: black;}
+
+/* fin estilos menú que se depliega */    
+
+/* estilos de la sección about*/
+
+  .fotomadrastra{width: 50%;
+  position: auto;
+  margin: auto;
+  padding-bottom: 2%;
+  }   
+
+    #textointro{ 
+ font-family: serif;
+  color: whitesmoke;
+  font-size: 2rem;
+  padding-right: 12%;
+  padding-left: 12%;
+  padding-bottom: 12%;
+  z-index: 0;
+  animation: fadeIn ease 7s;
+  -webkit-animation: fadeIn ease 7s;}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+/* fin estilos de la sección about*/
+
+/* estilos índice expos */
+
+#listadoexpos{font-size: 12pt;
+color: whitesmoke;
+padding-left: 7%;}
+
+#año{font-size: 10pt;
+color: gray;
+padding-left: 3%;}
+
+/* fin estilo de la sección expos*/
+
+/* estilo expos */
+
+    #textofichatec{font-size: 12pt;
+color: whitesmoke;
+padding: 2%;}
+
+#textodescrip{font-size: 22pt;
+  padding: 1%;
+  line-height: 1.2;
+color: darkgrey;}
+
+#subtitulofichatec{font-size: 16pt;
+color: whitesmoke;
+padding: 2%;}
+
+#enlacesydescargas{font-size: 12pt;
+color: whitesmoke;
+padding: 2%;}
+
+
+#titulofichatec{font-size: 28pt;
+  padding: 2%;
+  color: whitesmoke;
+text-align: left;}
+
+#piedefoto{color: whitesmoke;
+font-size: 12pt;
+padding-left: 3%;}
+
+#creditos{line-height: 1.5;
+  font-size: 14pt;
+  color: whitesmoke;
+}
+/* fin estilos expos */
+
+
+       
+
+
+ /* estilos tienda */
+
+
+#imgtienda{
+  float: left;
+width: 75%;
+margin-bottom: 3%;
+}
+
+#descriptienda{
+  float: right;
+  width: 24%;
+  margin-bottom: 3%;}
+
+  #tituloproducto{font-size: 16pt;
+color: whitesmoke;
+padding: %;}
+
+ #descripproducto{font-size: 12pt;
+color: whitesmoke;
+padding: %;}
+
+
+
+/* container 0 es el contenedor de la sección about */
+
+.container0{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: .9fr 1fr 1fr 1fr 1fr .9fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+                         "headerizq headercen headercen headercen headercen headder"
+                         "contenido1 contenido2 contenido2 contenido2 contenido2 contenido3"
+                         "footer footer footer footer footer footer";
+  grid-gap: .5rem;}
+
+
+  /* container 1 es el contenedor de indexexhibitions */
+
+.container1{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: .9fr 1fr 1fr 1fr 1fr .9fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-areas:
+                         "headerizq headercen headercen headercen headercen headder"
+                         "dfsdfs contenido1  contenido1 contenido1 contenido1 sdfsdf"
+                         "khsdlas lñfñdls contenido2 contenido2 slkdjalks sdhakjsdhj"
+                         "footer footer footer footer footer footer";
+  grid-gap: .5rem;}
+
+  /* container 2 es el contenedor de las exposiciones */
+
+.container2{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: .9fr 1fr 1fr 1fr 1fr .9fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas:
+                         "headerizq headercen headercen headercen headercen headder"
+                         "dfsdfs contenido1 contenido2 contenido2 contenido2 sdfsdf"
+                         "khsdlas contenido3 contenido3 contenido3 contenido3 sdhakjsdhj"
+                         "footer footer footer footer footer footer";
+  grid-gap: .5rem;}
+
+  /* container 3 es el contenedor de MUZAK */
+
+.container3{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: .9fr 1fr 1fr 1fr 1fr .9fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-areas:
+                         "headerizq headercen headercen headercen headercen headder"
+                         "dfsdfs contenido1 contenido1 contenido1 contenido1 sdfsdf"
+                         "khsdlas contenido2 contenido2 contenido3 contenido3 sdhakjsdhj"
+                         "sdaosd contenido4 contenido4 contenido4 contenido4 asldkañs"
+                         "footer footer footer footer footer footer";
+  grid-gap: .5rem;}
+
+  /* container 4 es el contenedor de shop */
+
+  .container4{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: .9fr 1fr 1fr 1fr 1fr .9fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+                         "headerizq headercen headercen headercen headercen headder"
+                         "dfsdfs contenido1 contenido1 contenido1 contenido1 sdfsdf"
+                         "khsdlas contenido2 contenido2 contenido2 contenido2 sdhakjsdhj"
+                         "sdaosd contenido4 contenido4 contenido4 contenido5 asldkañs"
+                         "sdaosd contenido6 contenido6 contenido6 contenido6 asldkañs"
+                         "footer footer footer footer footer footer";
+  grid-gap: .5rem;}
+
+
+  #contenido1{
+  background-color: transparent;
+  grid-area: contenido1;}
+  #contenido2{
+  background-color: transparent;
+  grid-area: contenido2;}
+  #contenido3{
+  background-color: transparent;
+  grid-area: contenido3;}
+  #contenido4{
+  text-align: center;
+  background-color: transparent;
+  grid-area: contenido4;}
+  #contenido5{
+  background-color: transparent;
+  grid-area: contenido5;}
+   #contenido6{
+  background-color: transparent;
+  grid-area: contenido6;}
+
+  @media (max-width: 1900px){
+
+
+  }
+
+  @media (max-width: 1200px){
+  
+
+  }
+
+  @media (max-width: 1080px){
+
+
+
+    .container0{
+  max-width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "headerizq headerizq"
+                         "headercen headercen"
+                         "headder headder"
+                         "contenido1 contenido1"
+                         "contenido2 contenido2"
+                         "contenido3 contenido3"
+                         "footer footer";
+                       
+  grid-gap: .5rem;}
+
+  .container1{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "headerizq headerizq"
+                         "headercen headercen"
+                         "headder headder"
+                         "contenido1 contenido1"
+                         "contenido2 contenido2"
+                         "contenido3 contenido3"
+                         "footer footer";
+  grid-gap: .5rem;}
+
+ .container2{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+                         "headerizq headerizq"
+                         "headercen headercen"
+                         "headder headder"
+                         "contenido1 contenido1"
+                         "contenido2 contenido2"
+                         "contenido3 contenido3"
+                         "contenido4 contenido4"
+                         "footer footer";
+  grid-gap: .5rem;}
+
+
+.container3{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+                         "headerizq headerizq"
+                         "headercen headercen"
+                         "headder headder"
+                         "contenido1 contenido1"
+                         "contenido2 contenido3"
+                         "contenido4 contenido4"
+                         "footer footer";
+  grid-gap: .5rem;}
+
+
+.container4{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: .1fr 1fr .1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+                         "headerizq headerizq headerizq"
+                         "headercen headercen headercen"
+                         "headder headder headder"
+                         "contenido1 contenido1 contenido1"
+                         "dfsd contenido2 sdfsd"
+                         "contenido3 contenido3 contenido3"
+                         "contenido4 contenido4 contenido4"
+                         "contenido5 contenido5 contenido5"
+                         "contenido6 contenido6 contenido6"
+                         "footer footer footer";
+  grid-gap: .5rem;}
+
+
+.categoria{display: flex;
+    justify-content: space-between; 
+  position: relative; 
+   text-align: center;
+   width: 100%;
+   top: 0%;
+   color: whitesmoke;
+   justify-content: space-evenly;
+    left: 30%;
+    transform: translate(-30%, -40%);
+
+.cajacategoria { 
+  max-width: 100%;
+           padding-left: 3%;
+           padding-right: 3%;
+            background-color: transparent; 
+            font-size: 1rem;
+            color: whitesmoke; 
+            font-size: 1rem; 
+            text-align: center;}
+
+.fotomadrastra{width: 100%;
+position: auto;
+margin: auto;
+padding-top: 3%;
+padding-bottom: 2%;}
+}  
+
+  @media (max-width: 800px){
+
+        #logoinstagram{width: 4%;
+margin: auto;}
+
+    #imgtienda{
+  width: 100%;
+  clear: right;
+  margin-bottom: 1%;}
+
+#descriptienda{
+  width: 100%;
+  clear: left;
+margin-bottom: 0%;}
+
+#tituloproducto{font-size: 16pt;
+color: whitesmoke;
+margin-top: -.2%;}
+
+ #descripproducto{font-size: 12pt;
+color: whitesmoke;}
+
+  }
+
+  @media  (max-width: 600px){
+
+    .fotomadrastra{width: 90%;
+position: auto;
+margin: auto;
+padding-bottom: 2%;
+}  
+
+       #textointro{ 
+ font-family: serif;
+  color: whitesmoke;
+  font-size: 2rem;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  z-index: 0;
+    animation: fadeIn ease 7s;
+  -webkit-animation: fadeIn ease 7s;
+}
+
+    .container0{
+  max-width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "headerizq headerizq"
+                         "headercen headercen"
+                         "headder headder"
+                         "contenido1 contenido1"
+                         "contenido2 contenido2"
+                         "contenido3 contenido3"
+                         "footer footer";
+                       
+  grid-gap: .5rem;}
+
+  .container1{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "headerizq headerizq"
+                         "headercen headercen"
+                         "headder headder"
+                         "contenido1 contenido1"
+                         "contenido2 contenido2"
+                         "contenido3 contenido3"
+                         "footer footer";
+  grid-gap: .5rem;}
+
+    .container2{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+                         "headerizq headerizq"
+                         "headercen headercen"
+                         "headder headder"
+                         "contenido1 contenido1"
+                         "contenido2 contenido2"
+                         "contenido3 contenido3"
+                         "contenido4 contenido4"
+                         "footer footer";
+  grid-gap: .5rem;}
+
+  .container3{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+                         "headerizq headerizq"
+                         "headercen headercen"
+                         "headder headder"
+                         "contenido1 contenido1"
+                         "contenido2 contenido2"
+                         "contenido3 contenido3"
+                         "contenido4 contenido4"
+                         "footer footer";
+  grid-gap: .5rem;}
+
+  .container4{
+  max-width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+  display:grid;
+  height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+                         "headerizq headerizq"
+                         "headercen headercen"
+                         "headder headder"
+                         "contenido1 contenido1"
+                         "contenido2 contenido2"
+                         "contenido3 contenido3"
+                         "contenido4 contenido4"
+                         "contenido5 contenido5"
+                         "contenido6 contenido6"
+                         "footer footer";
+  grid-gap: .5rem;}
+
+
+#menuvolador{
+  visibility: visible;
+color: black;
+text-align: right;
+float: right;
+max-width: 100%;
+margin-left: 80%;
+margin-top: 0%;
+position: fixed;
+z-index: 1;
+}
+
+
+  .categoria{display: none;
+    justify-content: space-between;
+   position: sticky; /* o relative para qeu se quede quieto */
+   text-align: center;
+   max-width: 30%;
+   top: 13%;
+    left: 30%;
+    transform: translate(-30%, 30%); 
+            
+}
+
+ #headercen{
+  display: none;
+  }
+
+  #headder{
+  display: none;
+  }
+
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+
+ 
+
+
